@@ -1,0 +1,17 @@
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pdf
+*.txt
+*.csv
+*.json
+*.xml
+*.html
