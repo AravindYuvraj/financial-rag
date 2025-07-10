@@ -16,26 +16,6 @@ A lightweight Retrieval-Augmented Generation (RAG) app that lets you ask natural
 
 ---
 
-## 📁 Project Structure
-
-```
-
-financial\_rag/
-├── app/
-│   ├── api/
-│   │   └── routes.py          # /ask endpoint
-│   ├── services/
-│   │   ├── ingest.py          # PDF ingestion logic
-│   │   └── rag.py             # RAG logic (retrieval + OpenAI)
-├── main.py                    # FastAPI app entrypoint
-├── ingest\_runner.py           # Script to run PDF ingestion
-├── .env                       # Your OpenAI API key
-└── README.md
-
-````
-
----
-
 ## ⚙️ Requirements
 
 - Python 3.10+
